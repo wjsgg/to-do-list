@@ -9,7 +9,7 @@
     <title>to do list</title>
 </head>
 <body>
-    <div class="container Module">
+    <div class="container Module shadow-sm p-3 mb-5 bg-white rounded">
         <div>Awesome Todo List</div>
         <form class="search-box form-inline d-flex flex-row justify-content-between align-items-stretch">                         
             <input type="text" id="title" name="title" placeholder="添加ToDo" required="required" autocomplete="off" class="flex-grow-1 mr-2 form-control h-100" /> 
@@ -20,9 +20,10 @@
                 
             </ul>
         </div>
-        <div class="inquireModule mt-4 d-flex"> 
-            <button type="button" class="bottomBtn btn btn-primary justify-content-end mr-2" id="tobeDone" >待办</button>
+        <div class="inquireModule mt-4 d-flex justify-content-end"> 
+            <button type="button" class="bottomBtn btn btn-primary justify-content-end mr-2 " id="tobeDone" >待办</button>
             <button type="button" class="bottomBtn btn btn-primary justify-content-end mr-2" id="comPleted" >已完成</button>
+            <button type="button" class="bottomBtn btn btn-primary justify-content-end mr-2" id="all" >全部</button>
             <button type="button" class="bottomBtn btn btn-primary justify-content-end" id="clear" >清除所有</button>
         </div> 
     </div>
