@@ -32,12 +32,11 @@ $(document).ready(function(){
             var list = document.getElementsByTagName("LI");
             var i;
             for(i=0;i<list.length;i++){
-              if($("#title").val()===data[i].text){
+              if($("#title").val()==data[i].text){
                 alert("重复！！！请重新输入");
                 $("#title").val()="";
-                break;
               }
-              break;
+              
             }
             
         }
